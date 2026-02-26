@@ -1427,7 +1427,7 @@
         <div class="product-card">
           <div class="product-tier">Pulse Essential</div>
           <h3>Everyday Protection.</h3>
-          <p class="price">$299 <span>one‑time</span></p>
+          <p class="price">$299.99 <span>one‑time</span></p>
           <p style="font-size:0.9rem;">
             The core Pulse experience—continuous monitoring, emergency detection, and secure medical ID in a sleek,
             stainless steel bracelet.
@@ -1444,7 +1444,7 @@
         <div class="product-card">
           <div class="product-tier">Pulse Luxe</div>
           <h3>Luxury Meets Intelligence.</h3>
-          <p class="price">$399 <span>one‑time</span></p>
+          <p class="price">$329.99 <span>one‑time</span></p>
           <p style="font-size:0.9rem;">
             Premium metals, enhanced AI predictions, and extended battery life for those who want a statement piece
             with serious intelligence.
@@ -1460,7 +1460,7 @@
         <div class="product-card">
           <div class="product-tier">Pulse Sport</div>
           <h3>Performance‑Driven Safety.</h3>
-          <p class="price">$349 <span>one‑time</span></p>
+          <p class="price">$319.99 <span>one‑time</span></p>
           <p style="font-size:0.9rem;">
             Built for athletes and movers—sweat‑resistant band, advanced fitness analytics, and GPS‑enhanced insights.
           </p>
@@ -1475,7 +1475,7 @@
         <div class="product-card">
           <div class="product-tier">Pulse Elite Edition</div>
           <h3>Collector‑Level Craftsmanship.</h3>
-          <p class="price">$599 <span>one‑time</span></p>
+          <p class="price">$349.99 <span>one‑time</span></p>
           <p style="font-size:0.9rem;">
             18k gold‑plated hardware, custom engraving, and priority support—Pulse at its most refined and exclusive.
           </p>
@@ -1898,7 +1898,7 @@
                 <div class="po-prod-desc">Stainless steel · Core vitals tracking</div>
               </div>
             </div>
-            <div class="po-prod-price">$299</div>
+            <div class="po-prod-price">$299.99</div>
           </div>
           <div class="po-product-option" data-product="luxe" onclick="selectProduct(this)">
             <div style="display:flex;align-items:center;">
@@ -1908,7 +1908,7 @@
                 <div class="po-prod-desc">Premium metals · AI predictions · Extended battery</div>
               </div>
             </div>
-            <div class="po-prod-price">$399</div>
+            <div class="po-prod-price">$329.99</div>
           </div>
           <div class="po-product-option" data-product="sport" onclick="selectProduct(this)">
             <div style="display:flex;align-items:center;">
@@ -1918,7 +1918,7 @@
                 <div class="po-prod-desc">Sweat-resistant · GPS · VO₂ Max</div>
               </div>
             </div>
-            <div class="po-prod-price">$349</div>
+            <div class="po-prod-price">$319.99</div>
           </div>
           <div class="po-product-option" data-product="elite" onclick="selectProduct(this)">
             <div style="display:flex;align-items:center;">
@@ -1928,7 +1928,7 @@
                 <div class="po-prod-desc">18k gold plated · Custom engraving · Priority support</div>
               </div>
             </div>
-            <div class="po-prod-price">$599</div>
+            <div class="po-prod-price">$349.99</div>
           </div>
         </div>
         <button class="btn-po" id="poNextProduct" disabled onclick="goToStep(1)">Continue</button>
@@ -2077,10 +2077,10 @@
 
     /* ---- Pre-Order State ---- */
     const poProducts = {
-      essential: { name: 'Pulse Essential', price: 299 },
-      luxe:      { name: 'Pulse Luxe',      price: 399 },
-      sport:     { name: 'Pulse Sport',     price: 349 },
-      elite:     { name: 'Pulse Elite Edition', price: 599 }
+      essential: { name: 'Pulse Essential', price: 299.99 },
+      luxe:      { name: 'Pulse Luxe',      price: 329.99 },
+      sport:     { name: 'Pulse Sport',     price: 319.99 },
+      elite:     { name: 'Pulse Elite Edition', price: 349.99 }
     };
 
     let poState = { product: null, shipping: 'standard', shippingCost: 0, step: 0 };
